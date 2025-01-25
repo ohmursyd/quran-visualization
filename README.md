@@ -2,7 +2,7 @@
 
 A Python-based visualization project that reveals fascinating numerical patterns within the structure of the Quran. This project creates a visual representation of the number of verses (ayat) in each chapter (surah), highlighting specific patterns known as "Lam-Lam-Ha" and "Alif".
 
-![Quran Visualization](preview.png)
+![Quran Visualization](previewquran.png)
 
 ## Features
 
@@ -22,7 +22,7 @@ A Python-based visualization project that reveals fascinating numerical patterns
 
 1. Clone the repository: 
 bash
-git clone https://github.com/yourusername/quran-visualization.git
+git clone https://github.com/ohmursyd/quran-visualization.git
 cd quran-visualization
 
 2. Install required packages:
@@ -48,7 +48,7 @@ quran-visualization/
 ├── quran_data.py # Quran structural data
 ├── requirements.txt # Python dependencies
 ├── README.md # This file
-└── preview.png # Visualization preview image
+└── previewquran.png # Visualization preview image
 
 
 ## Data Structure
@@ -76,7 +76,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 Your Name - [@coretheohmcorps](https://twitter.com/coretheohmcorps)
 
-Project Link: [https://github.com/ohmcorps/quran-visualization](https://github.com/ohmcorps/quran-visualization)
+Project Link: [https://github.com/ohmursyd/quran-visualization](https://github.com/ohmursyd/quran-visualization)
 
 ## Note
 
