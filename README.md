@@ -1,13 +1,19 @@
 # Quran Visualization Pattern
 
-A Python-based visualization project that reveals fascinating numerical patterns within the structure of the Quran. This project creates a visual representation of the number of verses (ayat) in each chapter (surah), highlighting specific patterns known as "Lam-Lam-Ha" and "Alif".
+A Python-based visualization project that reveals fascinating numerical patterns within the structure of the Quran. This project creates a visual representation of the number of verses (ayat) in each chapter (surah), which when plotted and connected in a specific sequence, forms the Arabic word "Allah" (الله).
 
 ![Quran Visualization](previewquran.png)
+
+## Inspiration
+
+This project was inspired by:
+- The original visualization concept demonstrated in [this video](https://www.youtube.com/watch?v=8-YBqmxJMx8)
+- A Python implementation by Liza Yusoff detailed in [this blog post](https://signocessing.wordpress.com/2020/01/15/python-plot-of-number-of-ayat-in-surah-from-the-quran/)
 
 ## Features
 
 - Visualizes all 114 surahs and their corresponding number of verses
-- Highlights the "Lam-Lam-Ha" pattern (orange fill with blue outline)
+- Highlights the "Lam-Lam-Ha" pattern (purple outline with orange fill)
 - Displays the "Alif" pattern (purple outline with orange fill)
 - Interactive matplotlib plot with grid lines for easy reference
 
@@ -53,8 +59,10 @@ quran-visualization/
 
 ## Data Structure
 
-The project uses a simple data structure in `quran_data.py`:
-
+The project uses a simple data structure in `quran_data.py` that contains:
+- The surah numbers (1-114)
+- The number of verses in each surah
+- Specific sequence data for forming the "Lam-Lam-Ha" and "Alif" patterns that create the Arabic word "Allah"
 
 ## Contributing
 
@@ -74,10 +82,10 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Contact
 
-Your Name - [@coretheohmcorps](https://twitter.com/coretheohmcorps)
+Ariff Mursyidi - [@Ariff_Mursyidi](https://t.me/Ariff_Mursyidi)
 
 Project Link: [https://github.com/ohmursyd/quran-visualization](https://github.com/ohmursyd/quran-visualization)
 
 ## Note
 
-This visualization is intended for educational and research purposes. The patterns shown are based on the numerical structure of the Quran's chapters and verses.
+This visualization is intended for educational and research purposes. The patterns shown are based on the numerical structure of the Quran's chapters and verses. The remarkable pattern that emerges when plotting the verse counts in this specific sequence was discovered by researchers studying the mathematical structure of the Quran.
