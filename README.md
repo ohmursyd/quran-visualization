@@ -49,13 +49,13 @@ The script will generate a plot showing:
 - Grid lines for reference
 
 ## Project Structure
-quran-visualization/
-├── plot_quran_visualization.py # Main visualization script
-├── quran_data.py # Quran structural data
-├── requirements.txt # Python dependencies
-├── README.md # This file
-└── previewquran.png # Visualization preview image
 
+    quran-visualization/
+    ├── plot_quran_visualization.py # Main visualization script
+    ├── quran_data.py # Quran structural data
+    ├── requirements.txt # Python dependencies
+    ├── README.md # This file
+    └── previewquran.png # Visualization preview image
 
 ## Data Structure
 
